@@ -50,15 +50,7 @@
 		"subimage" "glyph_practice"
 		"OnlyAtMenu" "1"
 	}
-	
-	// These buttons get positioned by the MainMenuOverride.res	
-	"GeneralStoreButton"
-	{
-		"label" "#MMenu_Shop"
-		"command" "engine open_store"
-		"subimage" "glyph_store"
-	}	
-	
+		
 	"CharacterSetupButton"
 	{
 		"label" "#MMenu_CharacterSetup"
@@ -94,63 +86,5 @@
 		"subimage" "glyph_muted"
 		"tooltip" "#MMenu_MutePlayers"
 	}
-	
-	"RequestCoachButton"
-	{
-		"label"			""
-		"command"		"engine cl_coach_find_coach"
-		"OnlyInGame"	"1"
-		"subimage" "icon_whistle"
-		"tooltip" "#MMenu_RequestCoach"
-	}
-	
-    "ReportPlayerButton"
-    {
-		"label"			""
-		"command"		"OpenReportPlayerDialog"
-		"OnlyInGame"	"1"
-		"subimage"		"glyph_alert"
-		"tooltip"		"#MMenu_ReportPlayer"
-		
-	}
-	
-	"FakeQuickPlayButton"
-	{
-	    "label"         "#MMenu_PlayMultiplayer" 
-		"command"       "0"
-		"subimage"      "glyph_multiplayer"
-		"OnlyAtMenu"	"1"
-	}
 
-	"FakeMvMButton"
-	{
-	    "label"         "#MMenu_PlayCoop" 
-		"command"       "0"
-		"subimage"      "glyph_coop"
-		"OnlyAtMenu"	"1"
-	}
-	
-	"NewGameButton"
-	{
-	    "label"         "#MMenu_NewGame" 
-		"command"       "find_game"
-		"subimage"      "glyph_server"
-		"OnlyInGame"	"1"
-	}
-	
-	"NewGameBgButton"
-	{
-	    "label"         "#MMenu_NewGame"
-		"command"       "0"
-		"subimage"      "glyph_server"
-		"OnlyInGame"    "1"
-	}
-	
-	"playlist"
-	{
-	    "label"         ""
-		"command"       "0"
-		"subimage"      "0"
-		"OnlyAtMenu"    "1"
-	}
 }
