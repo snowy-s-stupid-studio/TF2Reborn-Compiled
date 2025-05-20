@@ -6,7 +6,7 @@ PlayerClass
 {
 	// Attributes.
 	"name"			"Mobster" // THIS IS THE ACTUAL NAME OF THE CLASS. This is what the command joinclass will reference
-	"model"			"models/vip_mobster/player/mobster.mdl" // the blue lobster 🦞🦞🦞
+	"model"			"models/vip_mobster/player/mobster.mdl" // you'll have to edit this with your own model
 	"model_hwm"		"models/vip_mobster/player/mobster.mdl"
 	"model_hands"		"models/vip_mobster/weapons/c_mobster_arms.mdl"
 	"localize_name"		"TF_Class_Name_MOBSTER"
