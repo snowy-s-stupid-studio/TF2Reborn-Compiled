@@ -1178,3 +1178,5 @@ demoheader.tmp
 *.exp
 *.lib
 *.pdb
+tfreborn/cfg/settings.scr
+tfreborn/ServerConfig.vdf
